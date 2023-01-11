@@ -1,0 +1,48 @@
+span {
+    color: rgb(11, 219, 11);
+}
+h1 {
+    text-align: center;
+    font-size: 44px;
+
+}
+.container img {
+    max-width: 600px;
+    max-height: 800px;
+}
+.info {
+    max-width: 550px;
+    font-size: 20px;
+}
+.info ul {
+    padding-left: 27px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.box {
+    max-width: 420px;
+    margin: 20px auto 60px;
+    display: flex;
+    flex-direction: column;
+}
+.box input {
+    border-radius: 5px;
+    border: 0.5px solid black;
+    font-size: 20px;
+    margin: 0 0 20px;
+    padding: 10px;
+}
+
+.box button {
+    background: rgb(11, 219, 11);
+    border-style: none;
+    border-radius: 5px;
+    padding: 10px 0 -20px;
+    color: white;
+    font-size: 20px;
+} 
